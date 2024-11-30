@@ -3,6 +3,7 @@ import { Button } from "../../components/Button";
 import { Header } from "../../components/Header";
 
 import { Container, TextContent, Title, Titlehighlight } from './styles';
+import banner from '../../assets/fundo.png';
 
 export function Home() {
   const navigate = useNavigate();
@@ -28,7 +29,7 @@ export function Home() {
           <Button title='Começar Agora!' variant='secondary' onClick={handleClickSign} />
         </div>
         <div>
-          <img src="{}" alt="banner" />
+          <img src={banner} alt="banner" />
         </div>
       </Container>
     </>
